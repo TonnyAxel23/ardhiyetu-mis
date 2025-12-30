@@ -1,0 +1,1143 @@
+[12-Dec-2025 22:14:49 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[12-Dec-2025 22:14:56 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[12-Dec-2025 22:15:10 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[12-Dec-2025 22:15:10 Africa/Nairobi] === DEBUG: POST REQUEST RECEIVED ===
+[12-Dec-2025 22:15:10 Africa/Nairobi] POST Data: Array
+(
+    [action] => add_land
+    [parcel_no] => LR003/2025
+    [location] => Kakamega, Lurambi
+    [size] => 3
+    [latitude] => 
+    [longitude] => 
+    [description] => 
+)
+
+[12-Dec-2025 22:15:10 Africa/Nairobi] FILES Data: Array
+(
+    [document] => Array
+        (
+            [name] => 
+            [full_path] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[12-Dec-2025 22:15:10 Africa/Nairobi] Session User ID: 8
+[12-Dec-2025 22:15:10 Africa/Nairobi] Form Action: add_land
+[12-Dec-2025 22:15:10 Africa/Nairobi] === DEBUG: Processing add_land ===
+[12-Dec-2025 22:15:10 Africa/Nairobi] Parcel No: LR003/2025
+[12-Dec-2025 22:15:10 Africa/Nairobi] Location: Kakamega, Lurambi
+[12-Dec-2025 22:15:10 Africa/Nairobi] Size: 3
+[12-Dec-2025 22:15:10 Africa/Nairobi] Latitude: 
+[12-Dec-2025 22:15:10 Africa/Nairobi] Longitude: 
+[12-Dec-2025 22:15:10 Africa/Nairobi] Description: 
+[12-Dec-2025 22:15:10 Africa/Nairobi] Checking if parcel number exists...
+[12-Dec-2025 22:15:10 Africa/Nairobi] No file uploaded or upload error: 4
+[12-Dec-2025 22:15:10 Africa/Nairobi] Starting database transaction...
+[12-Dec-2025 22:15:10 Africa/Nairobi] Checking database columns...
+[12-Dec-2025 22:15:10 Africa/Nairobi] Available columns: record_id, owner_id, parcel_no, title_deed_no, location, county, size, description, document_path, size_unit, land_use, land_class, status, rejection_reason, registered_at, updated_at, registered_by, notes, latitude, longitude, is_public, coordinates_updated_at, reviewed_by, review_notes, reviewed_at, previous_owner_id, transfer_history
+[12-Dec-2025 22:15:10 Africa/Nairobi] Insert fields: owner_id, parcel_no, location, size, status
+[12-Dec-2025 22:15:10 Africa/Nairobi] Insert params: Array
+(
+    [0] => 8
+    [1] => LR003/2025
+    [2] => Kakamega, Lurambi
+    [3] => 3
+)
+
+[12-Dec-2025 22:15:10 Africa/Nairobi] Param types: issd
+[12-Dec-2025 22:15:10 Africa/Nairobi] SQL Query: INSERT INTO land_records (owner_id, parcel_no, location, size, status) 
+                                      VALUES (?, ?, ?, ?, 'pending')
+[12-Dec-2025 22:15:10 Africa/Nairobi] Statement prepared successfully
+[12-Dec-2025 22:15:10 Africa/Nairobi] Parameters bound successfully
+[12-Dec-2025 22:15:10 Africa/Nairobi] SUCCESS: Land inserted with ID: 8
+[12-Dec-2025 22:15:10 Africa/Nairobi] Creating notification...
+[12-Dec-2025 22:15:10 Africa/Nairobi] ROLLBACK: Unknown column 'created_at' in 'field list'
+[12-Dec-2025 22:15:13 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[12-Dec-2025 22:33:49 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[12-Dec-2025 22:34:49 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[12-Dec-2025 22:34:51 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[12-Dec-2025 22:34:54 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[12-Dec-2025 22:35:08 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[12-Dec-2025 22:35:08 Africa/Nairobi] === DEBUG: POST REQUEST RECEIVED ===
+[12-Dec-2025 22:35:08 Africa/Nairobi] POST Data: Array
+(
+    [action] => add_land
+    [parcel_no] => LR003/2025
+    [location] => Kakamega, Lurambi
+    [size] => 2
+    [latitude] => 
+    [longitude] => 
+    [description] => 
+)
+
+[12-Dec-2025 22:35:08 Africa/Nairobi] FILES Data: Array
+(
+    [document] => Array
+        (
+            [name] => 
+            [full_path] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[12-Dec-2025 22:35:08 Africa/Nairobi] Session User ID: 8
+[12-Dec-2025 22:35:08 Africa/Nairobi] Form Action: add_land
+[12-Dec-2025 22:35:08 Africa/Nairobi] === DEBUG: Processing add_land ===
+[12-Dec-2025 22:35:08 Africa/Nairobi] Parcel No: LR003/2025
+[12-Dec-2025 22:35:08 Africa/Nairobi] Location: Kakamega, Lurambi
+[12-Dec-2025 22:35:08 Africa/Nairobi] Size: 2
+[12-Dec-2025 22:35:08 Africa/Nairobi] Latitude: 
+[12-Dec-2025 22:35:08 Africa/Nairobi] Longitude: 
+[12-Dec-2025 22:35:08 Africa/Nairobi] Description: 
+[12-Dec-2025 22:35:08 Africa/Nairobi] Checking if parcel number exists...
+[12-Dec-2025 22:35:08 Africa/Nairobi] No file uploaded or upload error: 4
+[12-Dec-2025 22:35:08 Africa/Nairobi] Starting database transaction...
+[12-Dec-2025 22:35:08 Africa/Nairobi] Checking database columns...
+[12-Dec-2025 22:35:08 Africa/Nairobi] Available columns: record_id, owner_id, parcel_no, title_deed_no, location, county, size, description, document_path, size_unit, land_use, land_class, status, rejection_reason, registered_at, updated_at, registered_by, notes, latitude, longitude, is_public, coordinates_updated_at, reviewed_by, review_notes, reviewed_at, previous_owner_id, transfer_history
+[12-Dec-2025 22:35:08 Africa/Nairobi] Insert fields: owner_id, parcel_no, location, size, status
+[12-Dec-2025 22:35:08 Africa/Nairobi] Insert params: Array
+(
+    [0] => 8
+    [1] => LR003/2025
+    [2] => Kakamega, Lurambi
+    [3] => 2
+)
+
+[12-Dec-2025 22:35:08 Africa/Nairobi] Param types: issd
+[12-Dec-2025 22:35:08 Africa/Nairobi] SQL Query: INSERT INTO land_records (owner_id, parcel_no, location, size, status) 
+                                      VALUES (?, ?, ?, ?, 'pending')
+[12-Dec-2025 22:35:08 Africa/Nairobi] Statement prepared successfully
+[12-Dec-2025 22:35:08 Africa/Nairobi] Parameters bound successfully
+[12-Dec-2025 22:35:08 Africa/Nairobi] SUCCESS: Land inserted with ID: 9
+[12-Dec-2025 22:35:08 Africa/Nairobi] Creating notification...
+[12-Dec-2025 22:35:09 Africa/Nairobi] ROLLBACK: Unknown column 'created_at' in 'field list'
+[12-Dec-2025 22:35:12 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[12-Dec-2025 22:41:54 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[12-Dec-2025 22:41:57 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[12-Dec-2025 22:42:12 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[12-Dec-2025 22:42:12 Africa/Nairobi] === DEBUG: POST REQUEST RECEIVED ===
+[12-Dec-2025 22:42:12 Africa/Nairobi] POST Data: Array
+(
+    [action] => add_land
+    [parcel_no] => LR003/2025
+    [location] => Kakamega, Lurambi
+    [size] => 3
+    [latitude] => 
+    [longitude] => 
+    [description] => 
+)
+
+[12-Dec-2025 22:42:12 Africa/Nairobi] FILES Data: Array
+(
+    [document] => Array
+        (
+            [name] => 
+            [full_path] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[12-Dec-2025 22:42:12 Africa/Nairobi] Session User ID: 8
+[12-Dec-2025 22:42:12 Africa/Nairobi] Form Action: add_land
+[12-Dec-2025 22:42:12 Africa/Nairobi] === DEBUG: Processing add_land ===
+[12-Dec-2025 22:42:12 Africa/Nairobi] Parcel No: LR003/2025
+[12-Dec-2025 22:42:12 Africa/Nairobi] Location: Kakamega, Lurambi
+[12-Dec-2025 22:42:12 Africa/Nairobi] Size: 3
+[12-Dec-2025 22:42:12 Africa/Nairobi] Latitude: 
+[12-Dec-2025 22:42:12 Africa/Nairobi] Longitude: 
+[12-Dec-2025 22:42:12 Africa/Nairobi] Description: 
+[12-Dec-2025 22:42:12 Africa/Nairobi] Checking if parcel number exists...
+[12-Dec-2025 22:42:12 Africa/Nairobi] No file uploaded or upload error: 4
+[12-Dec-2025 22:42:12 Africa/Nairobi] Starting database transaction...
+[12-Dec-2025 22:42:12 Africa/Nairobi] Checking database columns...
+[12-Dec-2025 22:42:12 Africa/Nairobi] Available columns: record_id, owner_id, parcel_no, title_deed_no, location, county, size, description, document_path, size_unit, land_use, land_class, status, rejection_reason, registered_at, updated_at, registered_by, notes, latitude, longitude, is_public, coordinates_updated_at, reviewed_by, review_notes, reviewed_at, previous_owner_id, transfer_history
+[12-Dec-2025 22:42:12 Africa/Nairobi] Insert fields: owner_id, parcel_no, location, size, status
+[12-Dec-2025 22:42:12 Africa/Nairobi] Insert params: Array
+(
+    [0] => 8
+    [1] => LR003/2025
+    [2] => Kakamega, Lurambi
+    [3] => 3
+)
+
+[12-Dec-2025 22:42:12 Africa/Nairobi] Param types: issd
+[12-Dec-2025 22:42:12 Africa/Nairobi] SQL Query: INSERT INTO land_records (owner_id, parcel_no, location, size, status) 
+                                      VALUES (?, ?, ?, ?, 'pending')
+[12-Dec-2025 22:42:12 Africa/Nairobi] Statement prepared successfully
+[12-Dec-2025 22:42:12 Africa/Nairobi] Parameters bound successfully
+[12-Dec-2025 22:42:12 Africa/Nairobi] SUCCESS: Land inserted with ID: 10
+[12-Dec-2025 22:42:12 Africa/Nairobi] Creating notification...
+[12-Dec-2025 22:42:12 Africa/Nairobi] Logging activity...
+[12-Dec-2025 22:42:13 Africa/Nairobi] Transaction committed
+[12-Dec-2025 22:42:13 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[12-Dec-2025 22:42:43 Africa/Nairobi] === DEBUG: Page loaded for user ID: 11 ===
+[12-Dec-2025 22:42:56 Africa/Nairobi] === DEBUG: Page loaded for user ID: 11 ===
+[12-Dec-2025 22:42:56 Africa/Nairobi] === DEBUG: POST REQUEST RECEIVED ===
+[12-Dec-2025 22:42:56 Africa/Nairobi] POST Data: Array
+(
+    [action] => add_land
+    [parcel_no] => LR002/2025
+    [location] => Nakuru, Molo
+    [size] => 20
+    [latitude] => 
+    [longitude] => 
+    [description] => 
+)
+
+[12-Dec-2025 22:42:56 Africa/Nairobi] FILES Data: Array
+(
+    [document] => Array
+        (
+            [name] => 
+            [full_path] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[12-Dec-2025 22:42:56 Africa/Nairobi] Session User ID: 11
+[12-Dec-2025 22:42:56 Africa/Nairobi] Form Action: add_land
+[12-Dec-2025 22:42:56 Africa/Nairobi] === DEBUG: Processing add_land ===
+[12-Dec-2025 22:42:56 Africa/Nairobi] Parcel No: LR002/2025
+[12-Dec-2025 22:42:56 Africa/Nairobi] Location: Nakuru, Molo
+[12-Dec-2025 22:42:56 Africa/Nairobi] Size: 20
+[12-Dec-2025 22:42:56 Africa/Nairobi] Latitude: 
+[12-Dec-2025 22:42:56 Africa/Nairobi] Longitude: 
+[12-Dec-2025 22:42:56 Africa/Nairobi] Description: 
+[12-Dec-2025 22:42:56 Africa/Nairobi] Checking if parcel number exists...
+[12-Dec-2025 22:42:56 Africa/Nairobi] No file uploaded or upload error: 4
+[12-Dec-2025 22:42:56 Africa/Nairobi] Starting database transaction...
+[12-Dec-2025 22:42:56 Africa/Nairobi] Checking database columns...
+[12-Dec-2025 22:42:56 Africa/Nairobi] Available columns: record_id, owner_id, parcel_no, title_deed_no, location, county, size, description, document_path, size_unit, land_use, land_class, status, rejection_reason, registered_at, updated_at, registered_by, notes, latitude, longitude, is_public, coordinates_updated_at, reviewed_by, review_notes, reviewed_at, previous_owner_id, transfer_history
+[12-Dec-2025 22:42:56 Africa/Nairobi] Insert fields: owner_id, parcel_no, location, size, status
+[12-Dec-2025 22:42:56 Africa/Nairobi] Insert params: Array
+(
+    [0] => 11
+    [1] => LR002/2025
+    [2] => Nakuru, Molo
+    [3] => 20
+)
+
+[12-Dec-2025 22:42:56 Africa/Nairobi] Param types: issd
+[12-Dec-2025 22:42:56 Africa/Nairobi] SQL Query: INSERT INTO land_records (owner_id, parcel_no, location, size, status) 
+                                      VALUES (?, ?, ?, ?, 'pending')
+[12-Dec-2025 22:42:56 Africa/Nairobi] Statement prepared successfully
+[12-Dec-2025 22:42:56 Africa/Nairobi] Parameters bound successfully
+[12-Dec-2025 22:42:56 Africa/Nairobi] SUCCESS: Land inserted with ID: 11
+[12-Dec-2025 22:42:56 Africa/Nairobi] Creating notification...
+[12-Dec-2025 22:42:56 Africa/Nairobi] Logging activity...
+[12-Dec-2025 22:42:57 Africa/Nairobi] Transaction committed
+[12-Dec-2025 22:42:57 Africa/Nairobi] === DEBUG: Page loaded for user ID: 11 ===
+[13-Dec-2025 11:05:03 Africa/Nairobi] === DEBUG: Page loaded for user ID: 11 ===
+[13-Dec-2025 11:05:34 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[13-Dec-2025 11:07:59 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[13-Dec-2025 12:05:05 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[13-Dec-2025 12:22:39 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[13-Dec-2025 14:31:57 Africa/Nairobi] === DEBUG: Page loaded for user ID: 11 ===
+[13-Dec-2025 16:27:49 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[13-Dec-2025 16:29:43 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[13-Dec-2025 16:30:04 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[13-Dec-2025 23:20:11 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[13-Dec-2025 23:20:38 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[13-Dec-2025 23:20:40 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[13-Dec-2025 23:20:45 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[13-Dec-2025 23:21:34 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[13-Dec-2025 23:22:10 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[13-Dec-2025 23:22:14 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[13-Dec-2025 23:22:48 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[13-Dec-2025 23:22:54 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[13-Dec-2025 23:22:59 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[13-Dec-2025 23:25:32 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[13-Dec-2025 23:34:23 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[13-Dec-2025 23:34:46 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[13-Dec-2025 23:52:27 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[13-Dec-2025 23:52:35 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[13-Dec-2025 23:52:57 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[13-Dec-2025 23:53:16 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[14-Dec-2025 01:02:59 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[14-Dec-2025 01:03:18 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[14-Dec-2025 01:14:45 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[14-Dec-2025 01:14:48 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[14-Dec-2025 01:19:18 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[14-Dec-2025 02:11:17 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[14-Dec-2025 02:12:07 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[14-Dec-2025 02:16:53 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[14-Dec-2025 02:17:06 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[14-Dec-2025 02:17:13 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[14-Dec-2025 02:18:49 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[14-Dec-2025 07:50:25 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[14-Dec-2025 08:08:55 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[14-Dec-2025 10:00:39 Africa/Nairobi] === DEBUG: Page loaded for user ID: 10 ===
+[14-Dec-2025 10:01:29 Africa/Nairobi] === DEBUG: Page loaded for user ID: 10 ===
+[14-Dec-2025 10:01:50 Africa/Nairobi] === DEBUG: Page loaded for user ID: 10 ===
+[14-Dec-2025 10:06:12 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[14-Dec-2025 10:06:14 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[14-Dec-2025 10:07:02 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[14-Dec-2025 10:07:02 Africa/Nairobi] === DEBUG: POST REQUEST RECEIVED ===
+[14-Dec-2025 10:07:02 Africa/Nairobi] POST Data: Array
+(
+    [action] => add_land
+    [parcel_no] => LR004/2025
+    [location] => Nairobi, Westlands
+    [size] => 100
+    [latitude] => 
+    [longitude] => 
+    [description] => 
+)
+
+[14-Dec-2025 10:07:02 Africa/Nairobi] FILES Data: Array
+(
+    [document] => Array
+        (
+            [name] => 
+            [full_path] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[14-Dec-2025 10:07:02 Africa/Nairobi] Session User ID: 8
+[14-Dec-2025 10:07:02 Africa/Nairobi] Form Action: add_land
+[14-Dec-2025 10:07:02 Africa/Nairobi] === DEBUG: Processing add_land ===
+[14-Dec-2025 10:07:02 Africa/Nairobi] Parcel No: LR004/2025
+[14-Dec-2025 10:07:02 Africa/Nairobi] Location: Nairobi, Westlands
+[14-Dec-2025 10:07:02 Africa/Nairobi] Size: 100
+[14-Dec-2025 10:07:02 Africa/Nairobi] Latitude: 
+[14-Dec-2025 10:07:02 Africa/Nairobi] Longitude: 
+[14-Dec-2025 10:07:02 Africa/Nairobi] Description: 
+[14-Dec-2025 10:07:02 Africa/Nairobi] Checking if parcel number exists...
+[14-Dec-2025 10:07:02 Africa/Nairobi] No file uploaded or upload error: 4
+[14-Dec-2025 10:07:02 Africa/Nairobi] Starting database transaction...
+[14-Dec-2025 10:07:02 Africa/Nairobi] Checking database columns...
+[14-Dec-2025 10:07:02 Africa/Nairobi] Available columns: record_id, owner_id, parcel_no, title_deed_no, location, county, size, description, document_path, size_unit, land_use, land_class, status, rejection_reason, registered_at, updated_at, registered_by, notes, latitude, longitude, is_public, coordinates_updated_at, reviewed_by, review_notes, reviewed_at, previous_owner_id, transfer_history, original_parcel_no, parent_record_id, current_ownership_history_id
+[14-Dec-2025 10:07:02 Africa/Nairobi] Insert fields: owner_id, parcel_no, location, size, status
+[14-Dec-2025 10:07:02 Africa/Nairobi] Insert params: Array
+(
+    [0] => 8
+    [1] => LR004/2025
+    [2] => Nairobi, Westlands
+    [3] => 100
+)
+
+[14-Dec-2025 10:07:02 Africa/Nairobi] Param types: issd
+[14-Dec-2025 10:07:02 Africa/Nairobi] SQL Query: INSERT INTO land_records (owner_id, parcel_no, location, size, status) 
+                                      VALUES (?, ?, ?, ?, 'pending')
+[14-Dec-2025 10:07:02 Africa/Nairobi] Statement prepared successfully
+[14-Dec-2025 10:07:02 Africa/Nairobi] Parameters bound successfully
+[14-Dec-2025 10:07:03 Africa/Nairobi] ROLLBACK: Can't update table 'land_records' in stored function/trigger because it is already used by statement which invoked this stored function/trigger
+[14-Dec-2025 10:09:29 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[14-Dec-2025 10:09:37 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[14-Dec-2025 10:23:57 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[14-Dec-2025 10:24:12 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[14-Dec-2025 10:24:12 Africa/Nairobi] === DEBUG: POST REQUEST RECEIVED ===
+[14-Dec-2025 10:24:12 Africa/Nairobi] POST Data: Array
+(
+    [csrf_token] => 49339ef632936ad8ade91c30016844c0eca87dc59b3d5f6237378bca312df193
+    [action] => add_land
+    [parcel_no] => LR004/2025
+    [location] => Nairobi, Westlands
+    [size] => 100
+    [latitude] => 
+    [longitude] => 
+    [description] => 
+)
+
+[14-Dec-2025 10:24:12 Africa/Nairobi] FILES Data: Array
+(
+    [document] => Array
+        (
+            [name] => 
+            [full_path] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[14-Dec-2025 10:24:12 Africa/Nairobi] Session User ID: 8
+[14-Dec-2025 10:24:12 Africa/Nairobi] Form Action: add_land
+[14-Dec-2025 10:24:12 Africa/Nairobi] === DEBUG: Processing add_land ===
+[14-Dec-2025 10:24:12 Africa/Nairobi] Parcel No: LR004/2025
+[14-Dec-2025 10:24:12 Africa/Nairobi] Location: Nairobi, Westlands
+[14-Dec-2025 10:24:12 Africa/Nairobi] Size: 100
+[14-Dec-2025 10:24:12 Africa/Nairobi] Latitude: 
+[14-Dec-2025 10:24:12 Africa/Nairobi] Longitude: 
+[14-Dec-2025 10:24:12 Africa/Nairobi] Description: 
+[14-Dec-2025 10:24:12 Africa/Nairobi] Checking if parcel number exists...
+[14-Dec-2025 10:24:12 Africa/Nairobi] No file uploaded or upload error: 4
+[14-Dec-2025 10:24:12 Africa/Nairobi] Starting database transaction...
+[14-Dec-2025 10:24:12 Africa/Nairobi] Checking database columns...
+[14-Dec-2025 10:24:12 Africa/Nairobi] Available columns: record_id, owner_id, parcel_no, title_deed_no, location, county, size, description, document_path, size_unit, land_use, land_class, status, rejection_reason, registered_at, updated_at, registered_by, notes, latitude, longitude, is_public, coordinates_updated_at, reviewed_by, review_notes, reviewed_at, previous_owner_id, transfer_history, original_parcel_no, parent_record_id, current_ownership_history_id
+[14-Dec-2025 10:24:12 Africa/Nairobi] Insert fields: owner_id, parcel_no, location, size, status
+[14-Dec-2025 10:24:12 Africa/Nairobi] Insert params: Array
+(
+    [0] => 8
+    [1] => LR004/2025
+    [2] => Nairobi, Westlands
+    [3] => 100
+)
+
+[14-Dec-2025 10:24:12 Africa/Nairobi] Param types: issd
+[14-Dec-2025 10:24:12 Africa/Nairobi] SQL Query: INSERT INTO land_records (owner_id, parcel_no, location, size, status) 
+                                      VALUES (?, ?, ?, ?, 'pending')
+[14-Dec-2025 10:24:12 Africa/Nairobi] Parameters: Array
+(
+    [0] => 8
+    [1] => LR004/2025
+    [2] => Nairobi, Westlands
+    [3] => 100
+)
+
+[14-Dec-2025 10:24:12 Africa/Nairobi] Parameter types: issd
+[14-Dec-2025 10:24:12 Africa/Nairobi] Statement prepared successfully
+[14-Dec-2025 10:24:12 Africa/Nairobi] Parameters bound successfully
+[14-Dec-2025 10:24:12 Africa/Nairobi] ROLLBACK: Can't update table 'land_records' in stored function/trigger because it is already used by statement which invoked this stored function/trigger
+[14-Dec-2025 10:24:42 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[14-Dec-2025 10:24:42 Africa/Nairobi] === DEBUG: POST REQUEST RECEIVED ===
+[14-Dec-2025 10:24:42 Africa/Nairobi] POST Data: Array
+(
+    [csrf_token] => 49339ef632936ad8ade91c30016844c0eca87dc59b3d5f6237378bca312df193
+    [action] => add_land
+    [parcel_no] => LR004/2025
+    [location] => Nairobi, Westlands
+    [size] => 100
+    [latitude] => 
+    [longitude] => 
+    [description] => 
+)
+
+[14-Dec-2025 10:24:42 Africa/Nairobi] FILES Data: Array
+(
+    [document] => Array
+        (
+            [name] => 
+            [full_path] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[14-Dec-2025 10:24:42 Africa/Nairobi] Session User ID: 8
+[14-Dec-2025 10:24:42 Africa/Nairobi] Form Action: add_land
+[14-Dec-2025 10:24:42 Africa/Nairobi] === DEBUG: Processing add_land ===
+[14-Dec-2025 10:24:42 Africa/Nairobi] Parcel No: LR004/2025
+[14-Dec-2025 10:24:42 Africa/Nairobi] Location: Nairobi, Westlands
+[14-Dec-2025 10:24:42 Africa/Nairobi] Size: 100
+[14-Dec-2025 10:24:42 Africa/Nairobi] Latitude: 
+[14-Dec-2025 10:24:42 Africa/Nairobi] Longitude: 
+[14-Dec-2025 10:24:42 Africa/Nairobi] Description: 
+[14-Dec-2025 10:24:42 Africa/Nairobi] Checking if parcel number exists...
+[14-Dec-2025 10:24:42 Africa/Nairobi] No file uploaded or upload error: 4
+[14-Dec-2025 10:24:42 Africa/Nairobi] Starting database transaction...
+[14-Dec-2025 10:24:42 Africa/Nairobi] Checking database columns...
+[14-Dec-2025 10:24:42 Africa/Nairobi] Available columns: record_id, owner_id, parcel_no, title_deed_no, location, county, size, description, document_path, size_unit, land_use, land_class, status, rejection_reason, registered_at, updated_at, registered_by, notes, latitude, longitude, is_public, coordinates_updated_at, reviewed_by, review_notes, reviewed_at, previous_owner_id, transfer_history, original_parcel_no, parent_record_id, current_ownership_history_id
+[14-Dec-2025 10:24:42 Africa/Nairobi] Insert fields: owner_id, parcel_no, location, size, status
+[14-Dec-2025 10:24:42 Africa/Nairobi] Insert params: Array
+(
+    [0] => 8
+    [1] => LR004/2025
+    [2] => Nairobi, Westlands
+    [3] => 100
+)
+
+[14-Dec-2025 10:24:42 Africa/Nairobi] Param types: issd
+[14-Dec-2025 10:24:42 Africa/Nairobi] SQL Query: INSERT INTO land_records (owner_id, parcel_no, location, size, status) 
+                                      VALUES (?, ?, ?, ?, 'pending')
+[14-Dec-2025 10:24:42 Africa/Nairobi] Parameters: Array
+(
+    [0] => 8
+    [1] => LR004/2025
+    [2] => Nairobi, Westlands
+    [3] => 100
+)
+
+[14-Dec-2025 10:24:42 Africa/Nairobi] Parameter types: issd
+[14-Dec-2025 10:24:42 Africa/Nairobi] Statement prepared successfully
+[14-Dec-2025 10:24:42 Africa/Nairobi] Parameters bound successfully
+[14-Dec-2025 10:24:43 Africa/Nairobi] ROLLBACK: Can't update table 'land_records' in stored function/trigger because it is already used by statement which invoked this stored function/trigger
+[14-Dec-2025 10:33:41 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[14-Dec-2025 10:33:41 Africa/Nairobi] === DEBUG: POST REQUEST RECEIVED ===
+[14-Dec-2025 10:33:41 Africa/Nairobi] POST Data: Array
+(
+    [csrf_token] => 49339ef632936ad8ade91c30016844c0eca87dc59b3d5f6237378bca312df193
+    [action] => add_land
+    [parcel_no] => LR004/2025
+    [location] => Nairobi, Westlands
+    [size] => 100
+    [latitude] => 
+    [longitude] => 
+    [description] => 
+)
+
+[14-Dec-2025 10:33:41 Africa/Nairobi] FILES Data: Array
+(
+    [document] => Array
+        (
+            [name] => 
+            [full_path] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[14-Dec-2025 10:33:41 Africa/Nairobi] Session User ID: 8
+[14-Dec-2025 10:33:41 Africa/Nairobi] Form Action: add_land
+[14-Dec-2025 10:33:41 Africa/Nairobi] === DEBUG: Processing add_land ===
+[14-Dec-2025 10:33:41 Africa/Nairobi] Parcel No: LR004/2025
+[14-Dec-2025 10:33:41 Africa/Nairobi] Location: Nairobi, Westlands
+[14-Dec-2025 10:33:41 Africa/Nairobi] Size: 100
+[14-Dec-2025 10:33:41 Africa/Nairobi] Latitude: 
+[14-Dec-2025 10:33:41 Africa/Nairobi] Longitude: 
+[14-Dec-2025 10:33:41 Africa/Nairobi] Description: 
+[14-Dec-2025 10:33:41 Africa/Nairobi] Checking if parcel number exists...
+[14-Dec-2025 10:33:41 Africa/Nairobi] No file uploaded or upload error: 4
+[14-Dec-2025 10:33:41 Africa/Nairobi] Starting database transaction...
+[14-Dec-2025 10:33:41 Africa/Nairobi] Checking database columns...
+[14-Dec-2025 10:33:41 Africa/Nairobi] Available columns: record_id, owner_id, parcel_no, title_deed_no, location, county, size, description, document_path, size_unit, land_use, land_class, status, rejection_reason, registered_at, updated_at, registered_by, notes, latitude, longitude, is_public, coordinates_updated_at, reviewed_by, review_notes, reviewed_at, previous_owner_id, transfer_history, original_parcel_no, parent_record_id, current_ownership_history_id
+[14-Dec-2025 10:33:41 Africa/Nairobi] Insert fields: owner_id, parcel_no, location, size, status
+[14-Dec-2025 10:33:41 Africa/Nairobi] Insert params: Array
+(
+    [0] => 8
+    [1] => LR004/2025
+    [2] => Nairobi, Westlands
+    [3] => 100
+)
+
+[14-Dec-2025 10:33:41 Africa/Nairobi] Param types: issd
+[14-Dec-2025 10:33:41 Africa/Nairobi] SQL Query: INSERT INTO land_records (owner_id, parcel_no, location, size, status) 
+                                      VALUES (?, ?, ?, ?, 'pending')
+[14-Dec-2025 10:33:41 Africa/Nairobi] Parameters: Array
+(
+    [0] => 8
+    [1] => LR004/2025
+    [2] => Nairobi, Westlands
+    [3] => 100
+)
+
+[14-Dec-2025 10:33:41 Africa/Nairobi] Parameter types: issd
+[14-Dec-2025 10:33:41 Africa/Nairobi] Statement prepared successfully
+[14-Dec-2025 10:33:41 Africa/Nairobi] Parameters bound successfully
+[14-Dec-2025 10:33:41 Africa/Nairobi] SUCCESS: Land inserted with ID: 15
+[14-Dec-2025 10:33:41 Africa/Nairobi] Creating notification...
+[14-Dec-2025 10:33:41 Africa/Nairobi] Logging activity...
+[14-Dec-2025 10:33:41 Africa/Nairobi] Transaction committed
+[14-Dec-2025 10:33:41 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[14-Dec-2025 10:51:36 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[14-Dec-2025 10:55:01 Africa/Nairobi] === DEBUG: Page loaded for user ID: 11 ===
+[14-Dec-2025 11:27:35 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[14-Dec-2025 11:27:47 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[14-Dec-2025 11:28:42 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[14-Dec-2025 11:33:30 Africa/Nairobi] === DEBUG: Page loaded for user ID: 12 ===
+[14-Dec-2025 11:33:32 Africa/Nairobi] === DEBUG: Page loaded for user ID: 12 ===
+[14-Dec-2025 11:34:56 Africa/Nairobi] === DEBUG: Page loaded for user ID: 12 ===
+[14-Dec-2025 11:34:56 Africa/Nairobi] === DEBUG: POST REQUEST RECEIVED ===
+[14-Dec-2025 11:34:56 Africa/Nairobi] POST Data: Array
+(
+    [csrf_token] => 7a3fc7fc3919d38c7d0544cb8daa856b9a5201f3abc0690f2a1a4ca2f076ee0c
+    [action] => add_land
+    [parcel_no] => LR005/2025
+    [location] => Bungoma, Kanduyi
+    [size] => 50
+    [latitude] => 
+    [longitude] => 
+    [description] => 
+)
+
+[14-Dec-2025 11:34:56 Africa/Nairobi] FILES Data: Array
+(
+    [document] => Array
+        (
+            [name] => 
+            [full_path] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[14-Dec-2025 11:34:56 Africa/Nairobi] Session User ID: 12
+[14-Dec-2025 11:34:56 Africa/Nairobi] Form Action: add_land
+[14-Dec-2025 11:34:56 Africa/Nairobi] === DEBUG: Processing add_land ===
+[14-Dec-2025 11:34:56 Africa/Nairobi] Parcel No: LR005/2025
+[14-Dec-2025 11:34:56 Africa/Nairobi] Location: Bungoma, Kanduyi
+[14-Dec-2025 11:34:56 Africa/Nairobi] Size: 50
+[14-Dec-2025 11:34:56 Africa/Nairobi] Latitude: 
+[14-Dec-2025 11:34:56 Africa/Nairobi] Longitude: 
+[14-Dec-2025 11:34:56 Africa/Nairobi] Description: 
+[14-Dec-2025 11:34:56 Africa/Nairobi] Checking if parcel number exists...
+[14-Dec-2025 11:34:56 Africa/Nairobi] No file uploaded or upload error: 4
+[14-Dec-2025 11:34:56 Africa/Nairobi] Starting database transaction...
+[14-Dec-2025 11:34:56 Africa/Nairobi] Checking database columns...
+[14-Dec-2025 11:34:56 Africa/Nairobi] Available columns: record_id, owner_id, parcel_no, title_deed_no, location, county, size, description, document_path, size_unit, land_use, land_class, status, rejection_reason, registered_at, updated_at, registered_by, notes, latitude, longitude, is_public, coordinates_updated_at, reviewed_by, review_notes, reviewed_at, previous_owner_id, transfer_history, original_parcel_no, parent_record_id, current_ownership_history_id
+[14-Dec-2025 11:34:56 Africa/Nairobi] Insert fields: owner_id, parcel_no, location, size, status
+[14-Dec-2025 11:34:56 Africa/Nairobi] Insert params: Array
+(
+    [0] => 12
+    [1] => LR005/2025
+    [2] => Bungoma, Kanduyi
+    [3] => 50
+)
+
+[14-Dec-2025 11:34:56 Africa/Nairobi] Param types: issd
+[14-Dec-2025 11:34:56 Africa/Nairobi] SQL Query: INSERT INTO land_records (owner_id, parcel_no, location, size, status) 
+                                      VALUES (?, ?, ?, ?, 'pending')
+[14-Dec-2025 11:34:56 Africa/Nairobi] Parameters: Array
+(
+    [0] => 12
+    [1] => LR005/2025
+    [2] => Bungoma, Kanduyi
+    [3] => 50
+)
+
+[14-Dec-2025 11:34:56 Africa/Nairobi] Parameter types: issd
+[14-Dec-2025 11:34:56 Africa/Nairobi] Statement prepared successfully
+[14-Dec-2025 11:34:56 Africa/Nairobi] Parameters bound successfully
+[14-Dec-2025 11:34:56 Africa/Nairobi] SUCCESS: Land inserted with ID: 17
+[14-Dec-2025 11:34:56 Africa/Nairobi] Creating notification...
+[14-Dec-2025 11:34:56 Africa/Nairobi] Logging activity...
+[14-Dec-2025 11:34:56 Africa/Nairobi] Transaction committed
+[14-Dec-2025 11:34:56 Africa/Nairobi] === DEBUG: Page loaded for user ID: 12 ===
+[14-Dec-2025 11:51:10 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[14-Dec-2025 12:01:06 Africa/Nairobi] === DEBUG: Page loaded for user ID: 12 ===
+[14-Dec-2025 12:02:06 Africa/Nairobi] === DEBUG: Page loaded for user ID: 12 ===
+[14-Dec-2025 12:21:49 Africa/Nairobi] === DEBUG: Page loaded for user ID: 12 ===
+[14-Dec-2025 12:25:11 Africa/Nairobi] === DEBUG: Page loaded for user ID: 12 ===
+[14-Dec-2025 12:32:56 Africa/Nairobi] === DEBUG: Page loaded for user ID: 12 ===
+[14-Dec-2025 12:35:27 Africa/Nairobi] === DEBUG: Page loaded for user ID: 12 ===
+[14-Dec-2025 12:44:06 Africa/Nairobi] === DEBUG: Page loaded for user ID: 12 ===
+[14-Dec-2025 12:45:56 Africa/Nairobi] === DEBUG: Page loaded for user ID: 12 ===
+[14-Dec-2025 12:49:04 Africa/Nairobi] === DEBUG: Page loaded for user ID: 13 ===
+[14-Dec-2025 12:49:05 Africa/Nairobi] === DEBUG: Page loaded for user ID: 13 ===
+[14-Dec-2025 12:49:34 Africa/Nairobi] === DEBUG: Page loaded for user ID: 13 ===
+[14-Dec-2025 12:49:34 Africa/Nairobi] === DEBUG: POST REQUEST RECEIVED ===
+[14-Dec-2025 12:49:34 Africa/Nairobi] POST Data: Array
+(
+    [csrf_token] => 637eac7c0e0509d00bf9b627fd4891b7f44911c0c93145aa2575baaac228197f
+    [action] => add_land
+    [parcel_no] => LR006/2025
+    [location] => Kisumu, Kondele
+    [size] => 30
+    [latitude] => 
+    [longitude] => 
+    [description] => 
+)
+
+[14-Dec-2025 12:49:34 Africa/Nairobi] FILES Data: Array
+(
+    [document] => Array
+        (
+            [name] => 
+            [full_path] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[14-Dec-2025 12:49:34 Africa/Nairobi] Session User ID: 13
+[14-Dec-2025 12:49:34 Africa/Nairobi] Form Action: add_land
+[14-Dec-2025 12:49:34 Africa/Nairobi] === DEBUG: Processing add_land ===
+[14-Dec-2025 12:49:34 Africa/Nairobi] Parcel No: LR006/2025
+[14-Dec-2025 12:49:34 Africa/Nairobi] Location: Kisumu, Kondele
+[14-Dec-2025 12:49:34 Africa/Nairobi] Size: 30
+[14-Dec-2025 12:49:34 Africa/Nairobi] Latitude: 
+[14-Dec-2025 12:49:34 Africa/Nairobi] Longitude: 
+[14-Dec-2025 12:49:34 Africa/Nairobi] Description: 
+[14-Dec-2025 12:49:34 Africa/Nairobi] Checking if parcel number exists...
+[14-Dec-2025 12:49:34 Africa/Nairobi] No file uploaded or upload error: 4
+[14-Dec-2025 12:49:34 Africa/Nairobi] Starting database transaction...
+[14-Dec-2025 12:49:34 Africa/Nairobi] Checking database columns...
+[14-Dec-2025 12:49:34 Africa/Nairobi] Available columns: record_id, owner_id, parcel_no, title_deed_no, location, county, size, description, document_path, size_unit, land_use, land_class, status, rejection_reason, registered_at, updated_at, registered_by, notes, latitude, longitude, is_public, coordinates_updated_at, reviewed_by, review_notes, reviewed_at, previous_owner_id, transfer_history, original_parcel_no, parent_record_id, current_ownership_history_id
+[14-Dec-2025 12:49:34 Africa/Nairobi] Insert fields: owner_id, parcel_no, location, size, status
+[14-Dec-2025 12:49:34 Africa/Nairobi] Insert params: Array
+(
+    [0] => 13
+    [1] => LR006/2025
+    [2] => Kisumu, Kondele
+    [3] => 30
+)
+
+[14-Dec-2025 12:49:34 Africa/Nairobi] Param types: issd
+[14-Dec-2025 12:49:34 Africa/Nairobi] SQL Query: INSERT INTO land_records (owner_id, parcel_no, location, size, status) 
+                                      VALUES (?, ?, ?, ?, 'pending')
+[14-Dec-2025 12:49:34 Africa/Nairobi] Parameters: Array
+(
+    [0] => 13
+    [1] => LR006/2025
+    [2] => Kisumu, Kondele
+    [3] => 30
+)
+
+[14-Dec-2025 12:49:34 Africa/Nairobi] Parameter types: issd
+[14-Dec-2025 12:49:34 Africa/Nairobi] Statement prepared successfully
+[14-Dec-2025 12:49:34 Africa/Nairobi] Parameters bound successfully
+[14-Dec-2025 12:49:34 Africa/Nairobi] SUCCESS: Land inserted with ID: 19
+[14-Dec-2025 12:49:34 Africa/Nairobi] Creating notification...
+[14-Dec-2025 12:49:34 Africa/Nairobi] Logging activity...
+[14-Dec-2025 12:49:35 Africa/Nairobi] Transaction committed
+[14-Dec-2025 12:49:35 Africa/Nairobi] === DEBUG: Page loaded for user ID: 13 ===
+[14-Dec-2025 13:10:55 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[14-Dec-2025 13:11:11 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[14-Dec-2025 13:11:16 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[14-Dec-2025 13:20:38 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[14-Dec-2025 13:20:38 Africa/Nairobi] === DEBUG: POST REQUEST RECEIVED ===
+[14-Dec-2025 13:20:38 Africa/Nairobi] POST Data: Array
+(
+    [csrf_token] => 4476c9e0a6af38c4f347d9732c7f74404a7ecd5aa73e97152e297ff415b4de88
+    [action] => add_land
+    [parcel_no] => LR007/2025
+    [location] => Uasin Gishu, Eldoret
+    [size] => 0.5
+    [latitude] => 1.56878
+    [longitude] => 39.099778
+    [description] => Big tree
+)
+
+[14-Dec-2025 13:20:38 Africa/Nairobi] FILES Data: Array
+(
+    [document] => Array
+        (
+            [name] => 
+            [full_path] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[14-Dec-2025 13:20:38 Africa/Nairobi] Session User ID: 8
+[14-Dec-2025 13:20:38 Africa/Nairobi] Form Action: add_land
+[14-Dec-2025 13:20:38 Africa/Nairobi] === DEBUG: Processing add_land ===
+[14-Dec-2025 13:20:38 Africa/Nairobi] Parcel No: LR007/2025
+[14-Dec-2025 13:20:38 Africa/Nairobi] Location: Uasin Gishu, Eldoret
+[14-Dec-2025 13:20:38 Africa/Nairobi] Size: 0.5
+[14-Dec-2025 13:20:38 Africa/Nairobi] Latitude: 1.56878
+[14-Dec-2025 13:20:38 Africa/Nairobi] Longitude: 39.099778
+[14-Dec-2025 13:20:38 Africa/Nairobi] Description: Big tree
+[14-Dec-2025 13:20:38 Africa/Nairobi] Checking if parcel number exists...
+[14-Dec-2025 13:20:38 Africa/Nairobi] No file uploaded or upload error: 4
+[14-Dec-2025 13:20:38 Africa/Nairobi] Starting database transaction...
+[14-Dec-2025 13:20:38 Africa/Nairobi] Checking database columns...
+[14-Dec-2025 13:20:38 Africa/Nairobi] Available columns: record_id, owner_id, parcel_no, title_deed_no, location, county, size, description, document_path, size_unit, land_use, land_class, status, rejection_reason, registered_at, updated_at, registered_by, notes, latitude, longitude, is_public, coordinates_updated_at, reviewed_by, review_notes, reviewed_at, previous_owner_id, transfer_history, original_parcel_no, parent_record_id, current_ownership_history_id
+[14-Dec-2025 13:20:38 Africa/Nairobi] Insert fields: owner_id, parcel_no, location, size, status
+[14-Dec-2025 13:20:38 Africa/Nairobi] Insert params: Array
+(
+    [0] => 8
+    [1] => LR007/2025
+    [2] => Uasin Gishu, Eldoret
+    [3] => 0.5
+)
+
+[14-Dec-2025 13:20:38 Africa/Nairobi] Param types: issd
+[14-Dec-2025 13:20:38 Africa/Nairobi] Adding optional field: latitude = 1.56878
+[14-Dec-2025 13:20:38 Africa/Nairobi] Adding optional field: longitude = 39.099778
+[14-Dec-2025 13:20:38 Africa/Nairobi] Adding optional field: description = Big tree
+[14-Dec-2025 13:20:38 Africa/Nairobi] SQL Query: INSERT INTO land_records (owner_id, parcel_no, location, size, status, latitude, longitude, description) 
+                                      VALUES (?, ?, ?, ?, 'pending', ?, ?, ?)
+[14-Dec-2025 13:20:38 Africa/Nairobi] Parameters: Array
+(
+    [0] => 8
+    [1] => LR007/2025
+    [2] => Uasin Gishu, Eldoret
+    [3] => 0.5
+    [4] => 1.56878
+    [5] => 39.099778
+    [6] => Big tree
+)
+
+[14-Dec-2025 13:20:38 Africa/Nairobi] Parameter types: issddds
+[14-Dec-2025 13:20:38 Africa/Nairobi] Statement prepared successfully
+[14-Dec-2025 13:20:38 Africa/Nairobi] Parameters bound successfully
+[14-Dec-2025 13:20:38 Africa/Nairobi] SUCCESS: Land inserted with ID: 20
+[14-Dec-2025 13:20:38 Africa/Nairobi] Creating notification...
+[14-Dec-2025 13:20:38 Africa/Nairobi] Logging activity...
+[14-Dec-2025 13:20:38 Africa/Nairobi] Transaction committed
+[14-Dec-2025 13:20:38 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[14-Dec-2025 13:44:23 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[14-Dec-2025 13:44:32 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[14-Dec-2025 19:41:10 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[14-Dec-2025 19:41:52 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[14-Dec-2025 21:00:49 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[14-Dec-2025 21:17:31 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[14-Dec-2025 21:31:09 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[14-Dec-2025 21:41:07 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[14-Dec-2025 21:41:19 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[14-Dec-2025 21:44:15 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[14-Dec-2025 21:45:12 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[14-Dec-2025 21:45:19 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[14-Dec-2025 21:45:30 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[14-Dec-2025 21:45:43 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[14-Dec-2025 21:45:51 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[14-Dec-2025 21:46:03 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[14-Dec-2025 21:46:44 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[14-Dec-2025 21:51:15 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[15-Dec-2025 06:57:49 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[15-Dec-2025 06:58:04 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[15-Dec-2025 06:59:10 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[15-Dec-2025 07:15:56 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[15-Dec-2025 07:16:19 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[15-Dec-2025 07:16:46 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[15-Dec-2025 07:17:01 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[15-Dec-2025 07:17:10 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[15-Dec-2025 07:17:16 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[15-Dec-2025 07:17:31 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[15-Dec-2025 07:17:48 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[15-Dec-2025 07:17:59 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[15-Dec-2025 07:18:09 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[15-Dec-2025 07:29:38 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[15-Dec-2025 07:29:47 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[15-Dec-2025 07:29:51 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[15-Dec-2025 07:31:54 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[15-Dec-2025 07:31:54 Africa/Nairobi] === DEBUG: POST REQUEST RECEIVED ===
+[15-Dec-2025 07:31:54 Africa/Nairobi] POST Data: Array
+(
+    [csrf_token] => 182ffc64b63ab19f2743f3fc048e0a9e48430d4bd39073e75f09897b363c6368
+    [action] => add_land
+    [parcel_no] => LR008/2025
+    [location] => Nairobi, Kileleshwa
+    [size] => 25
+    [latitude] => 
+    [longitude] => 
+    [description] => 
+)
+
+[15-Dec-2025 07:31:54 Africa/Nairobi] FILES Data: Array
+(
+    [document] => Array
+        (
+            [name] => 4561002_0.72421900 1760970792.pdf
+            [full_path] => 4561002_0.72421900 1760970792.pdf
+            [type] => application/pdf
+            [tmp_name] => C:\xampp\tmp\php5F47.tmp
+            [error] => 0
+            [size] => 374366
+        )
+
+)
+
+[15-Dec-2025 07:31:54 Africa/Nairobi] Session User ID: 8
+[15-Dec-2025 07:31:54 Africa/Nairobi] Form Action: add_land
+[15-Dec-2025 07:31:54 Africa/Nairobi] === DEBUG: Processing add_land ===
+[15-Dec-2025 07:31:54 Africa/Nairobi] Parcel No: LR008/2025
+[15-Dec-2025 07:31:54 Africa/Nairobi] Location: Nairobi, Kileleshwa
+[15-Dec-2025 07:31:54 Africa/Nairobi] Size: 25
+[15-Dec-2025 07:31:54 Africa/Nairobi] Latitude: 
+[15-Dec-2025 07:31:54 Africa/Nairobi] Longitude: 
+[15-Dec-2025 07:31:54 Africa/Nairobi] Description: 
+[15-Dec-2025 07:31:54 Africa/Nairobi] Checking if parcel number exists...
+[15-Dec-2025 07:31:54 Africa/Nairobi] Processing file upload...
+[15-Dec-2025 07:31:55 Africa/Nairobi] File extension: pdf
+[15-Dec-2025 07:31:55 Africa/Nairobi] File MIME type: application/pdf
+[15-Dec-2025 07:31:55 Africa/Nairobi] File size: 374366
+[15-Dec-2025 07:31:55 Africa/Nairobi] Upload directory: C:\xampp\htdocs\ardhiyetu-mis\public\user/../../uploads/lands/
+[15-Dec-2025 07:31:55 Africa/Nairobi] Target file: C:\xampp\htdocs\ardhiyetu-mis\public\user/../../uploads/lands/land_693f8f3bc5e233.31158543_4561002_0.72421900_1760970792.pdf
+[15-Dec-2025 07:31:55 Africa/Nairobi] File uploaded successfully: uploads/lands/land_693f8f3bc5e233.31158543_4561002_0.72421900_1760970792.pdf
+[15-Dec-2025 07:31:55 Africa/Nairobi] Starting database transaction...
+[15-Dec-2025 07:31:55 Africa/Nairobi] Checking database columns...
+[15-Dec-2025 07:31:55 Africa/Nairobi] Available columns: record_id, owner_id, parcel_no, title_deed_no, location, county, size, description, document_path, size_unit, land_use, land_class, status, rejection_reason, registered_at, updated_at, registered_by, notes, latitude, longitude, is_public, coordinates_updated_at, reviewed_by, review_notes, reviewed_at, previous_owner_id, transfer_history, original_parcel_no, parent_record_id, current_ownership_history_id
+[15-Dec-2025 07:31:55 Africa/Nairobi] Insert fields: owner_id, parcel_no, location, size, status
+[15-Dec-2025 07:31:55 Africa/Nairobi] Insert params: Array
+(
+    [0] => 8
+    [1] => LR008/2025
+    [2] => Nairobi, Kileleshwa
+    [3] => 25
+)
+
+[15-Dec-2025 07:31:55 Africa/Nairobi] Param types: issd
+[15-Dec-2025 07:31:55 Africa/Nairobi] Adding optional field: document_path = uploads/lands/land_693f8f3bc5e233.31158543_4561002_0.72421900_1760970792.pdf
+[15-Dec-2025 07:31:55 Africa/Nairobi] SQL Query: INSERT INTO land_records (owner_id, parcel_no, location, size, status, document_path) 
+                                      VALUES (?, ?, ?, ?, 'pending', ?)
+[15-Dec-2025 07:31:55 Africa/Nairobi] Parameters: Array
+(
+    [0] => 8
+    [1] => LR008/2025
+    [2] => Nairobi, Kileleshwa
+    [3] => 25
+    [4] => uploads/lands/land_693f8f3bc5e233.31158543_4561002_0.72421900_1760970792.pdf
+)
+
+[15-Dec-2025 07:31:55 Africa/Nairobi] Parameter types: issds
+[15-Dec-2025 07:31:55 Africa/Nairobi] Statement prepared successfully
+[15-Dec-2025 07:31:55 Africa/Nairobi] Parameters bound successfully
+[15-Dec-2025 07:31:55 Africa/Nairobi] SUCCESS: Land inserted with ID: 21
+[15-Dec-2025 07:31:55 Africa/Nairobi] Creating notification...
+[15-Dec-2025 07:31:55 Africa/Nairobi] Logging activity...
+[15-Dec-2025 07:31:56 Africa/Nairobi] Transaction committed
+[15-Dec-2025 07:31:56 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[15-Dec-2025 07:33:54 Africa/Nairobi] === DEBUG: Page loaded for user ID: 10 ===
+[15-Dec-2025 08:11:26 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[15-Dec-2025 08:11:27 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[15-Dec-2025 08:12:06 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[15-Dec-2025 08:12:06 Africa/Nairobi] === DEBUG: POST REQUEST RECEIVED ===
+[15-Dec-2025 08:12:06 Africa/Nairobi] POST Data: Array
+(
+    [csrf_token] => c204922299fb007bb247566c25458ba9bdd83839503d5a05764d5ba721b7b5e7
+    [action] => add_land
+    [parcel_no] => LR008/2025
+    [location] => Nairobi, Kileleshwa
+    [size] => 27
+    [latitude] => 
+    [longitude] => 
+    [description] => 
+)
+
+[15-Dec-2025 08:12:06 Africa/Nairobi] FILES Data: Array
+(
+    [document] => Array
+        (
+            [name] => 4561002_0.72421900 1760970792.pdf
+            [full_path] => 4561002_0.72421900 1760970792.pdf
+            [type] => application/pdf
+            [tmp_name] => C:\xampp\tmp\php2D77.tmp
+            [error] => 0
+            [size] => 374366
+        )
+
+)
+
+[15-Dec-2025 08:12:06 Africa/Nairobi] Session User ID: 8
+[15-Dec-2025 08:12:06 Africa/Nairobi] Form Action: add_land
+[15-Dec-2025 08:12:06 Africa/Nairobi] === DEBUG: Processing add_land ===
+[15-Dec-2025 08:12:06 Africa/Nairobi] Parcel No: LR008/2025
+[15-Dec-2025 08:12:06 Africa/Nairobi] Location: Nairobi, Kileleshwa
+[15-Dec-2025 08:12:06 Africa/Nairobi] Size: 27
+[15-Dec-2025 08:12:06 Africa/Nairobi] Latitude: 
+[15-Dec-2025 08:12:06 Africa/Nairobi] Longitude: 
+[15-Dec-2025 08:12:06 Africa/Nairobi] Description: 
+[15-Dec-2025 08:12:06 Africa/Nairobi] Checking if parcel number exists...
+[15-Dec-2025 08:12:06 Africa/Nairobi] Processing file upload...
+[15-Dec-2025 08:12:06 Africa/Nairobi] File extension: pdf
+[15-Dec-2025 08:12:06 Africa/Nairobi] File MIME type: application/pdf
+[15-Dec-2025 08:12:06 Africa/Nairobi] File size: 374366
+[15-Dec-2025 08:12:06 Africa/Nairobi] Upload directory: C:\xampp\htdocs\ardhiyetu-mis\public\user/../../uploads/lands/
+[15-Dec-2025 08:12:06 Africa/Nairobi] Target file: C:\xampp\htdocs\ardhiyetu-mis\public\user/../../uploads/lands/land_693f98a6dd89a2.65591101_4561002_0.72421900_1760970792.pdf
+[15-Dec-2025 08:12:06 Africa/Nairobi] File uploaded successfully: uploads/lands/land_693f98a6dd89a2.65591101_4561002_0.72421900_1760970792.pdf
+[15-Dec-2025 08:12:06 Africa/Nairobi] Starting database transaction...
+[15-Dec-2025 08:12:06 Africa/Nairobi] Checking database columns...
+[15-Dec-2025 08:12:06 Africa/Nairobi] Available columns: record_id, owner_id, parcel_no, title_deed_no, location, county, size, description, document_path, size_unit, land_use, land_class, status, rejection_reason, registered_at, updated_at, registered_by, notes, latitude, longitude, is_public, coordinates_updated_at, reviewed_by, review_notes, reviewed_at, previous_owner_id, transfer_history, original_parcel_no, parent_record_id, current_ownership_history_id
+[15-Dec-2025 08:12:06 Africa/Nairobi] Insert fields: owner_id, parcel_no, location, size, status
+[15-Dec-2025 08:12:06 Africa/Nairobi] Insert params: Array
+(
+    [0] => 8
+    [1] => LR008/2025
+    [2] => Nairobi, Kileleshwa
+    [3] => 27
+)
+
+[15-Dec-2025 08:12:06 Africa/Nairobi] Param types: issd
+[15-Dec-2025 08:12:06 Africa/Nairobi] Adding optional field: document_path = uploads/lands/land_693f98a6dd89a2.65591101_4561002_0.72421900_1760970792.pdf
+[15-Dec-2025 08:12:06 Africa/Nairobi] SQL Query: INSERT INTO land_records (owner_id, parcel_no, location, size, status, document_path) 
+                                      VALUES (?, ?, ?, ?, 'pending', ?)
+[15-Dec-2025 08:12:06 Africa/Nairobi] Parameters: Array
+(
+    [0] => 8
+    [1] => LR008/2025
+    [2] => Nairobi, Kileleshwa
+    [3] => 27
+    [4] => uploads/lands/land_693f98a6dd89a2.65591101_4561002_0.72421900_1760970792.pdf
+)
+
+[15-Dec-2025 08:12:06 Africa/Nairobi] Parameter types: issds
+[15-Dec-2025 08:12:06 Africa/Nairobi] Statement prepared successfully
+[15-Dec-2025 08:12:06 Africa/Nairobi] Parameters bound successfully
+[15-Dec-2025 08:12:06 Africa/Nairobi] SUCCESS: Land inserted with ID: 22
+[15-Dec-2025 08:12:06 Africa/Nairobi] Creating notification...
+[15-Dec-2025 08:12:07 Africa/Nairobi] Logging activity...
+[15-Dec-2025 08:12:07 Africa/Nairobi] Transaction committed
+[15-Dec-2025 08:12:07 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[15-Dec-2025 10:18:53 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[15-Dec-2025 10:20:16 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[15-Dec-2025 10:20:16 Africa/Nairobi] === DEBUG: POST REQUEST RECEIVED ===
+[15-Dec-2025 10:20:16 Africa/Nairobi] POST Data: Array
+(
+    [csrf_token] => 7db88349563e965cc85ff23d437b6bd9b99030d65a3834bc50e31a3e838d2224
+    [action] => add_land
+    [parcel_no] => LR009/2025
+    [location] => Bungoma, Kibabii
+    [size] => 10
+    [latitude] => 34.5593
+    [longitude] => 0.5699
+    [description] => 
+)
+
+[15-Dec-2025 10:20:16 Africa/Nairobi] FILES Data: Array
+(
+    [document] => Array
+        (
+            [name] => 
+            [full_path] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[15-Dec-2025 10:20:16 Africa/Nairobi] Session User ID: 8
+[15-Dec-2025 10:20:16 Africa/Nairobi] Form Action: add_land
+[15-Dec-2025 10:20:16 Africa/Nairobi] === DEBUG: Processing add_land ===
+[15-Dec-2025 10:20:16 Africa/Nairobi] Parcel No: LR009/2025
+[15-Dec-2025 10:20:16 Africa/Nairobi] Location: Bungoma, Kibabii
+[15-Dec-2025 10:20:16 Africa/Nairobi] Size: 10
+[15-Dec-2025 10:20:16 Africa/Nairobi] Latitude: 34.5593
+[15-Dec-2025 10:20:16 Africa/Nairobi] Longitude: 0.5699
+[15-Dec-2025 10:20:16 Africa/Nairobi] Description: 
+[15-Dec-2025 10:20:16 Africa/Nairobi] Checking if parcel number exists...
+[15-Dec-2025 10:20:16 Africa/Nairobi] No file uploaded or upload error: 4
+[15-Dec-2025 10:20:16 Africa/Nairobi] Starting database transaction...
+[15-Dec-2025 10:20:16 Africa/Nairobi] Checking database columns...
+[15-Dec-2025 10:20:16 Africa/Nairobi] Available columns: record_id, owner_id, parcel_no, title_deed_no, location, county, size, description, document_path, size_unit, land_use, land_class, status, rejection_reason, registered_at, updated_at, registered_by, notes, latitude, longitude, is_public, coordinates_updated_at, reviewed_by, review_notes, reviewed_at, previous_owner_id, transfer_history, original_parcel_no, parent_record_id, current_ownership_history_id
+[15-Dec-2025 10:20:16 Africa/Nairobi] Insert fields: owner_id, parcel_no, location, size, status
+[15-Dec-2025 10:20:16 Africa/Nairobi] Insert params: Array
+(
+    [0] => 8
+    [1] => LR009/2025
+    [2] => Bungoma, Kibabii
+    [3] => 10
+)
+
+[15-Dec-2025 10:20:16 Africa/Nairobi] Param types: issd
+[15-Dec-2025 10:20:16 Africa/Nairobi] Adding optional field: latitude = 34.5593
+[15-Dec-2025 10:20:16 Africa/Nairobi] Adding optional field: longitude = 0.5699
+[15-Dec-2025 10:20:16 Africa/Nairobi] SQL Query: INSERT INTO land_records (owner_id, parcel_no, location, size, status, latitude, longitude) 
+                                      VALUES (?, ?, ?, ?, 'pending', ?, ?)
+[15-Dec-2025 10:20:16 Africa/Nairobi] Parameters: Array
+(
+    [0] => 8
+    [1] => LR009/2025
+    [2] => Bungoma, Kibabii
+    [3] => 10
+    [4] => 34.5593
+    [5] => 0.5699
+)
+
+[15-Dec-2025 10:20:16 Africa/Nairobi] Parameter types: issddd
+[15-Dec-2025 10:20:16 Africa/Nairobi] Statement prepared successfully
+[15-Dec-2025 10:20:16 Africa/Nairobi] Parameters bound successfully
+[15-Dec-2025 10:20:16 Africa/Nairobi] SUCCESS: Land inserted with ID: 27
+[15-Dec-2025 10:20:16 Africa/Nairobi] Creating notification...
+[15-Dec-2025 10:20:16 Africa/Nairobi] Logging activity...
+[15-Dec-2025 10:20:16 Africa/Nairobi] Transaction committed
+[15-Dec-2025 10:20:16 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[15-Dec-2025 10:28:10 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[15-Dec-2025 10:28:42 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[15-Dec-2025 10:28:42 Africa/Nairobi] === DEBUG: POST REQUEST RECEIVED ===
+[15-Dec-2025 10:28:42 Africa/Nairobi] POST Data: Array
+(
+    [csrf_token] => 4d39702225884aeb32214db210fb646fb79250dbfaeae5f609fca80fd7e9fe7f
+    [action] => add_land
+    [parcel_no] => LR010/2025
+    [location] => Bungoma, Kibabii
+    [size] => 12
+    [latitude] => 34.045
+    [longitude] => 0.2334
+    [description] => 
+)
+
+[15-Dec-2025 10:28:42 Africa/Nairobi] FILES Data: Array
+(
+    [document] => Array
+        (
+            [name] => 
+            [full_path] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[15-Dec-2025 10:28:42 Africa/Nairobi] Session User ID: 8
+[15-Dec-2025 10:28:42 Africa/Nairobi] Form Action: add_land
+[15-Dec-2025 10:28:42 Africa/Nairobi] === DEBUG: Processing add_land ===
+[15-Dec-2025 10:28:42 Africa/Nairobi] Parcel No: LR010/2025
+[15-Dec-2025 10:28:42 Africa/Nairobi] Location: Bungoma, Kibabii
+[15-Dec-2025 10:28:42 Africa/Nairobi] Size: 12
+[15-Dec-2025 10:28:42 Africa/Nairobi] Latitude: 34.045
+[15-Dec-2025 10:28:42 Africa/Nairobi] Longitude: 0.2334
+[15-Dec-2025 10:28:42 Africa/Nairobi] Description: 
+[15-Dec-2025 10:28:42 Africa/Nairobi] Checking if parcel number exists...
+[15-Dec-2025 10:28:42 Africa/Nairobi] No file uploaded or upload error: 4
+[15-Dec-2025 10:28:42 Africa/Nairobi] Starting database transaction...
+[15-Dec-2025 10:28:42 Africa/Nairobi] Checking database columns...
+[15-Dec-2025 10:28:42 Africa/Nairobi] Available columns: record_id, owner_id, parcel_no, title_deed_no, location, county, size, description, document_path, size_unit, land_use, land_class, status, rejection_reason, registered_at, updated_at, registered_by, notes, latitude, longitude, is_public, coordinates_updated_at, reviewed_by, review_notes, reviewed_at, previous_owner_id, transfer_history, original_parcel_no, parent_record_id, current_ownership_history_id
+[15-Dec-2025 10:28:42 Africa/Nairobi] Insert fields: owner_id, parcel_no, location, size, status
+[15-Dec-2025 10:28:42 Africa/Nairobi] Insert params: Array
+(
+    [0] => 8
+    [1] => LR010/2025
+    [2] => Bungoma, Kibabii
+    [3] => 12
+)
+
+[15-Dec-2025 10:28:42 Africa/Nairobi] Param types: issd
+[15-Dec-2025 10:28:42 Africa/Nairobi] Adding optional field: latitude = 34.045
+[15-Dec-2025 10:28:42 Africa/Nairobi] Adding optional field: longitude = 0.2334
+[15-Dec-2025 10:28:42 Africa/Nairobi] SQL Query: INSERT INTO land_records (owner_id, parcel_no, location, size, status, latitude, longitude) 
+                                      VALUES (?, ?, ?, ?, 'pending', ?, ?)
+[15-Dec-2025 10:28:42 Africa/Nairobi] Parameters: Array
+(
+    [0] => 8
+    [1] => LR010/2025
+    [2] => Bungoma, Kibabii
+    [3] => 12
+    [4] => 34.045
+    [5] => 0.2334
+)
+
+[15-Dec-2025 10:28:42 Africa/Nairobi] Parameter types: issddd
+[15-Dec-2025 10:28:42 Africa/Nairobi] Statement prepared successfully
+[15-Dec-2025 10:28:42 Africa/Nairobi] Parameters bound successfully
+[15-Dec-2025 10:28:42 Africa/Nairobi] SUCCESS: Land inserted with ID: 28
+[15-Dec-2025 10:28:42 Africa/Nairobi] Creating notification...
+[15-Dec-2025 10:28:42 Africa/Nairobi] Logging activity...
+[15-Dec-2025 10:28:42 Africa/Nairobi] Transaction committed
+[15-Dec-2025 10:28:42 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[15-Dec-2025 10:38:33 Africa/Nairobi] === DEBUG: Page loaded for user ID: 14 ===
+[15-Dec-2025 11:47:21 Africa/Nairobi] === DEBUG: Page loaded for user ID: 14 ===
+[15-Dec-2025 12:53:50 Africa/Nairobi] === DEBUG: Page loaded for user ID: 14 ===
+[22-Dec-2025 12:03:07 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[22-Dec-2025 12:03:27 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[22-Dec-2025 12:05:54 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[22-Dec-2025 15:15:51 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===
+[23-Dec-2025 08:32:40 Europe/Berlin] PHP Warning:  Constant BASE_URL already defined in C:\xampp\htdocs\ardhiyetu-mis\includes\config.php on line 12
+[23-Dec-2025 10:32:40 Africa/Nairobi] PHP Warning:  session_set_cookie_params(): Session cookie parameters cannot be changed when a session is active in C:\xampp\htdocs\ardhiyetu-mis\includes\config.php on line 324
+[23-Dec-2025 10:32:40 Africa/Nairobi] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\ardhiyetu-mis\includes\config.php on line 333
+[23-Dec-2025 10:32:41 Africa/Nairobi] PHP Fatal error:  Cannot redeclare sanitize_input() (previously declared in C:\xampp\htdocs\ardhiyetu-mis\includes\config.php:387) in C:\xampp\htdocs\ardhiyetu-mis\includes\functions.php on line 15

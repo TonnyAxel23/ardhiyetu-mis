@@ -1,0 +1,122 @@
+version: '3.8'
+
+services:
+  # PHP Application
+  app:
+    build: .
+    ports:
+      - "8080:80"
+    volumes:
+      - ./:/var/www/html
+    depends_on:
+      - db
+      - redis
+      - ai-valuation
+      - ai-vision
+    environment:
+      - DB_HOST=db
+      - DB_NAME=ardhiyetu
+      - DB_USER=root
+      - DB_PASS=password
+      - REDIS_HOST=redis
+      - AI_VALUATION_SERVICE=http://ai-valuation:5000
+      - AI_VISION_SERVICE=http://ai-vision:5001
+
+  # Database
+  db:
+    image: mysql:8.0
+    environment:
+      - MYSQL_ROOT_PASSWORD=password
+      - MYSQL_DATABASE=ardhiyetu
+    volumes:
+      - mysql_data:/var/lib/mysql
+      - ./database:/docker-entrypoint-initdb.d
+    ports:
+      - "3306:3306"
+
+  # Redis for caching and queues
+  redis:
+    image: redis:alpine
+    ports:
+      - "6379:6379"
+
+  # AI Valuation Service (Python)
+  ai-valuation:
+    build: ./python_services/valuation_service
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./python_services/valuation_service:/app
+      - ai_models:/app/models
+    environment:
+      - DB_HOST=db
+      - DB_NAME=ardhiyetu
+      - DB_USER=root
+      - DB_PASS=password
+    depends_on:
+      - db
+
+  # AI Vision Service (Python)
+  ai-vision:
+    build: ./python_services/vision_service
+    ports:
+      - "5001:5001"
+    volumes:
+      - ./python_services/vision_service:/app
+      - ai_models:/app/models
+    environment:
+      - GOOGLE_VISION_API_KEY=${GOOGLE_VISION_API_KEY}
+
+  # AI NLP Service (Python)
+  ai-nlp:
+    build: ./python_services/nlp_service
+    ports:
+      - "5002:5002"
+    volumes:
+      - ./python_services/nlp_service:/app
+      - ai_models:/app/models
+
+  # Queue Worker for AI Processing
+  ai-worker:
+    build: ./python_services/worker
+    volumes:
+      - ./python_services/worker:/app
+      - ai_models:/app/models
+    environment:
+      - REDIS_HOST=redis
+      - DB_HOST=db
+      - DB_NAME=ardhiyetu
+      - DB_USER=root
+      - DB_PASS=password
+    depends_on:
+      - redis
+      - db
+    command: python worker.py
+
+  # Monitoring (Prometheus + Grafana)
+  prometheus:
+    image: prom/prometheus
+    volumes:
+      - ./monitoring/prometheus.yml:/etc/prometheus/prometheus.yml
+      - prometheus_data:/prometheus
+    ports:
+      - "9090:9090"
+
+  grafana:
+    image: grafana/grafana
+    environment:
+      - GF_SECURITY_ADMIN_PASSWORD=admin
+    volumes:
+      - grafana_data:/var/lib/grafana
+      - ./monitoring/dashboards:/etc/grafana/provisioning/dashboards
+    ports:
+      - "3000:3000"
+    depends_on:
+      - prometheus
+
+volumes:
+  mysql_data:
+  redis_data:
+  ai_models:
+  prometheus_data:
+  grafana_data:
