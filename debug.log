@@ -1141,3 +1141,4 @@
 [23-Dec-2025 10:32:40 Africa/Nairobi] PHP Warning:  session_set_cookie_params(): Session cookie parameters cannot be changed when a session is active in C:\xampp\htdocs\ardhiyetu-mis\includes\config.php on line 324
 [23-Dec-2025 10:32:40 Africa/Nairobi] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\ardhiyetu-mis\includes\config.php on line 333
 [23-Dec-2025 10:32:41 Africa/Nairobi] PHP Fatal error:  Cannot redeclare sanitize_input() (previously declared in C:\xampp\htdocs\ardhiyetu-mis\includes\config.php:387) in C:\xampp\htdocs\ardhiyetu-mis\includes\functions.php on line 15
+[29-Dec-2025 13:01:51 Africa/Nairobi] === DEBUG: Page loaded for user ID: 8 ===

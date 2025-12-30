@@ -1,6 +1,4 @@
 <?php
-
-<?php
 // Admin access check
 session_start();
 

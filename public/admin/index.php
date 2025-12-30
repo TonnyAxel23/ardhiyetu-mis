@@ -852,9 +852,9 @@ $memory_usage = round(memory_get_usage(true) / 1024 / 1024, 2); // MB
                             <div class="activities-list">
                                 <?php
                                 $activities_sql = "SELECT a.*, u.name 
-                                                   FROM user_activities a
-                                                   JOIN users u ON a.user_id = u.user_id
-                                                   ORDER BY a.created_at DESC LIMIT 5";
+                                        FROM user_activities a
+                                        JOIN users u ON a.user_id = u.user_id
+                                        ORDER BY a.created_at DESC LIMIT 5";
                                 $activities = mysqli_query($conn, $activities_sql);
                                 
                                 if (mysqli_num_rows($activities) > 0):
@@ -1022,4 +1022,3 @@ $memory_usage = round(memory_get_usage(true) / 1024 / 1024, 2); // MB
     </script>
 </body>
 </html>
-<?php
