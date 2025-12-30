@@ -655,7 +655,6 @@ function can_split_land($record_id, $min_size = 0.01) {
     
     return $land['size'] >= ($min_size * 2);
 }
-
 /**
  * Get all splits from a parent land
  */
