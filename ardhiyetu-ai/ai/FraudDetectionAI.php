@@ -1,4 +1,4 @@
-<?php
+<?php 
 namespace ArdhiYetu\AI;
 
 class FraudDetectionAI {
