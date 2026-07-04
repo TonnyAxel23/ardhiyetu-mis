@@ -1,4 +1,4 @@
-<?php
+<?php 
 // File: public/archive.php
 require_once __DIR__ . '/../includes/init.php';
 
